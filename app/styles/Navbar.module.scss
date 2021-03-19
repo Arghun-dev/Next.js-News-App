@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &_item {
+    padding: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #eee;
+    }
+  }
+}

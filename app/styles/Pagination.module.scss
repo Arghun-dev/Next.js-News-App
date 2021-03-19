@@ -1,0 +1,21 @@
+.pagination {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &_arrow {
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 100%;
+
+    &_disable {
+      cursor: not-allowed;
+      color: #ccc;
+    }
+
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+}
